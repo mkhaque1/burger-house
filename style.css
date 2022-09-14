@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'BebasNeu';
+    src: url(fonts/BebasNeue\ Bold.ttf);
+}
+
+/*common css*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'BebasNeu', sans-serif;
+    color: #3d2514;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+
+}
+/*common css*/
+/*top*/
+header{
+    background-image: url("images/background.jpg");
+}
+.paragraph{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    padding-right: 85px;
+    
+}
+.paragraph img{
+    width: 8%;
+}
+/* Header start */
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo a{
+
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #333;
+}
+/* Header end */
+/* banner start */
+
+.banner{
+    background-image: url(images/background.jpg);
+}
+.banner_c{
+    padding: 70px 0;
+}
+.left{
+    width: 45%;
+    float: left;
+}
+.left p{
+    margin-right: 315px;
+    padding-left: 8px;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: uppercase;  
+    border: 1px dashed #3d2514;
+
+}
+.left h1 {
+    font-family: "Alfa Slab One";
+    font-size: 114px;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+.left h2{
+    font-family: "Alfa Slab One";
+    font-size: 56px;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+.right{
+    width: 35%;
+    float: right;
+}
+.right img{
+    width: 100%;
+}
+
+/* banner end */
+
+/*galary start*/
+
+.galary{
+    padding: 50px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.g_content{
+    overflow: hidden;
+}
+.g_left{
+    padding: 10px 0 0 20px;
+    width: 50%;
+    float: left;
+    background-image: url("images/img1.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 419px;
+}
+.g_left p{
+   color: #ffffff;
+   
+}
+.g_left h2{
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.g_right{
+    width: 45%;
+    float: right;
+    margin-top: 7px;
+}
+.g_right_1{
+    padding: 10px 0 0 20px;
+    min-height: 190px;
+    color: #ffffff;
+    background-image: url("images/img2.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+.g_p{
+    line-height: 4px;
+}
+
+.g_right_2{
+    margin-top: 12px;
+    padding: 10px 0 0 20px;
+    min-height: 190px;
+    color: #ffffff;
+    background-image: url("images/img3.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 7px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+}
+/*galary end*/
+/*order start*/
+
+.order{
+    padding: 50px 0;
+}
+.wrapper{
+    
+}
+.order_title{
+   text-align: center;
+   padding: 20px 0;
+}
+.order_title h3 {
+    width: 16%;
+    margin: 0 auto;
+    height: 35px;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: #ffc045;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.order_title h2{
+    font-size: 50px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+}
+.order_title p{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.order_item{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.item_1{
+    margin: 0 50px;
+}
+.i_pic{
+   width: 90%;
+}
+
+.i_pic img{
+    width: 100%;
+}
+.i_pic shadow{
+    margin: 20px;
+}
+
+.img-burger{
+    width: 0;
+}
+.item_1 h3{
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+}
+.item_1 p{
+    font-size: 16px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";  
+}
+.order_btn button{
+    font-family: "Alfa Slab One";
+    color: #ffffff;
+    font-weight: 400;
+    padding: 15px 25px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #bf2222;
+    cursor: pointer;
+    transition: 0.33s;
+}
+.order_btn button:hover{
+    padding: 18px 28px;
+    background-color: #3d2514;
+}
+
+/*order end*/
+
+/*event start*/
+.events{
+    padding: 50px 0;
+    background-color: rgb(245, 245, 245);
+}
+.event-box{ 
+    height: 450px;
+    box-shadow: 0px 0px 20px 0px;
+    background-color: #ffffff;
+    transition: 0.33s;
+}
+.event-box:hover{
+    height: 460px;
+    background-color: #f4b537;
+}
+.event-left{
+    width: 45%;
+    padding: 25px;
+    float: left;
+}
+.event-left h3{
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+.event-left h2{
+    font-family: "Alfa Slab One";
+    font-weight: 400;
+    font-size: 42px;
+    text-transform: uppercase;
+    
+}
+.event-left p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #3d3d3d;
+}
+.event-right{
+    width: 51%;
+    float: right;
+    min-height: 450px;
+}
+.event-right img{
+    width: 95%;
+    padding: 15px 0 0 15px;
+}
+/*event end*/
+/*form start*/
+.form{
+    padding: 142px;
+    text-align: center;
+    background-image: url(images/formpic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.form-content{
+    margin: 0 auto;
+}
+.f_title h3{
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+.f_title h2{
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.form-main{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+input{
+    font-family: 'BebasNeu', sans-serif;
+    color: #3d2514;
+    text-transform: uppercase;
+    width: 32%;
+    margin: 0 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type=submit] {
+    font-family: "Alfa Slab One";
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #bf2222;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/*form end*/
+/*footer start*/
+.footer{
+    padding: 50px 0;
+}
+.content{
+    background-image: url("images/footer-img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.c_top{
+    width: 90%;
+    margin: 151px auto;
+    padding-top: 115px;
+    overflow: hidden;
+}
+.c_top_left{
+    width: 50%;
+    float: left;
+}
+.c_logo{
+    width: 30%;
+}
+.c_logo img{
+    width: 100%;
+}
+.c_top p{
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    
+}
+
+.c_top_right{
+    width: 30%;
+    float: right;
+}
+.c_top_right a{
+   float: left;
+   padding: 20px;
+}
+.footer-c{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.f-c-left{
+    width: 50%;
+    float: left;
+}
+.f-c-left p{
+    font-size: 16px;
+    color: white;
+}
+.f-c-right{
+    width: 15%;
+    float: right;
+}
+.f-c-right a{
+    float: left;
+    padding: 7px;
+}
+/*footer end*/
